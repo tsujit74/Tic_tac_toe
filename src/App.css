@@ -15,6 +15,10 @@
   opacity: 0.9;
 }
 
+.square:active{
+  background-color: #826d6e;
+}
+
 .row {
   display: table-row;
   text-align: center;
@@ -93,12 +97,12 @@
 
   .board-row {
     margin: 2px 2px 2px 2px;
-    width: 90%;
+    width: 88%;
   }
 
   .square {
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     height: 70px;
     width: 65.6px;
